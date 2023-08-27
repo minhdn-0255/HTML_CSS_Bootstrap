@@ -1,0 +1,220 @@
+:root {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.nav__btn {
+  color: black;
+}
+.nav__btn:hover {
+  color: white;
+  background-color: #04aa6d;
+}
+.nav__btn__type2:hover {
+  background-color: #f1f1f1;
+}
+
+.nav__btn__type3 {
+  color: #f1f1f1;
+  background-color: #282a35;
+  border: none;
+  padding: 5px 15px;
+  height: 100%;
+  font-size: 13px;
+  font-weight: 550;
+}
+.nav__btn__type3:hover {
+  background-color: #000;
+}
+.material-icons {
+  font-size: 13px;
+}
+.nav__btn__type3--active {
+  color: #f1f1f1;
+  background-color: #04aa6d;
+  border: none;
+  height: 100%;
+  padding: 5px 15px;
+  font-weight: 550;
+}
+
+.btn__round {
+  border-radius: 25px;
+  padding: 8px 16px;
+}
+
+.btn__sign-up,
+.btn__sign-up:hover {
+  position: relative;
+  background-color: #04aa6d;
+  color: white;
+  z-index: 1;
+}
+.btn__log-in {
+  background-color: #d9eee1;
+  padding-left: 40px;
+  margin-left: -40px;
+  z-index: -1;
+}
+.btn__log-in:hover {
+  background-color: #059862;
+  color: white;
+}
+.nav {
+  height: 100%;
+}
+.btn-group {
+  height: 100%;
+}
+.btn-group > button {
+  border-radius: 0;
+}
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 10;
+}
+.navbar__main {
+  height: 56px;
+}
+.navbar__second {
+  height: 32.5px;
+}
+.nav__ctn {
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-wrap: nowrap;
+}
+.nav__controller {
+  flex: 0 0 auto;
+}
+.main__container {
+  position: relative;
+  top: 90px;
+  width: calc(100% - 220px);
+  margin-left: 220px;
+  display: grid;
+  grid-template-columns: auto 150px;
+  z-index: 0;
+}
+
+.sidebar {
+  position: fixed;
+  overflow-y: scroll;
+  width: 220px;
+  padding-right: 0;
+  background-color: #e7e9eb;
+  height: calc(100vh - 88.5px);
+  padding-bottom: 25px;
+  bottom: 0;
+}
+.sidebar__category {
+  padding: 20px 0 10px 16px;
+  font-size: 21px;
+}
+.sidebar__btn {
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: left;
+  border: none;
+  padding: 2px 1px 1px 16px;
+  line-height: 1.5;
+  background-color: inherit;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.sidebar__btn:hover {
+  background-color: #cccccc;
+  text-decoration: none;
+  color: #000;
+}
+.sidebar__btn--active {
+  background-color: #04aa6d;
+  color: #fff;
+}
+.sidebar__btn--active:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+.navigate__btn__container {
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.primary__btn {
+  width: max-content;
+  padding: 8px 19px;
+  font-weight: 600;
+}
+
+.btn__green {
+  background-color: #04aa6d;
+  color: #fff;
+}
+.btn__green:hover,
+.btn__hover__blue:hover {
+  background-color: #059862;
+  color: #fff;
+}
+.btn__black {
+  background-color: #282a35;
+  color: #fff;
+}
+.btn__black:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn__gray {
+  background-color: #e7e9eb;
+}
+.intro {
+  background-color: #d9eee1;
+  padding: 30px 20px;
+}
+
+.learning,
+.example {
+  padding: 0 20px;
+}
+.code__example {
+  background-color: #e7e9eb;
+  padding: 20px;
+}
+
+.code__field {
+  font-family: Consolas, Menlo, "courier new", monospace;
+  background-color: #fff;
+  padding: 8px;
+  line-height: 1.6;
+}
+.blue__text {
+  color: mediumblue;
+}
+.red__text {
+  color: #f00;
+}
+.brown__text {
+  color: #a52a2a;
+}
+footer a,
+footer a:visited,
+footer a:active {
+  color: #666;
+  text-decoration: none;
+}
+footer {
+  grid-column: span 2;
+  color: #666;
+  font-family: Verdana, sans-serif;
+  font-size: 12px !important;
+  margin-bottom: 20px;
+}

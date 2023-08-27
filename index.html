@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="HTML, CSS, Bootstrap" />
+    <meta
+      name="Description"
+      content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more."
+    />
+    <title>HTML Tutorial</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="icon" type="image/x-icon" href="./logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg d-flex flex-column align-items-start p-0">
+        <div class="navbar__main container-fluid d-flex flex-row align-items-center">
+          <ul class="nav justify-content-start">
+            <li class="nav-item d-flex align-items-center px-2">
+              <div class="navbar__logo"><img src="logo.png" alt="logo" width="42" /></div>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn nav__btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tutorials
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn nav__btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Exercises
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn nav__btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Get Certified
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn nav__btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end align-items-center">
+            <li class="nav-item">
+              <button class="btn nav__btn__type2 btn__round">Bootcamps</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn nav__btn__type2 btn__round">Spaces</button>
+            </li>
+            <li>
+              <div class="px-2">
+                <button class="btn btn__sign-up btn__round">Sign Up</button>
+                <button class="btn btn__log-in btn__round">Log in</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar__second d-flex flex-row container-fluid align-items-center mx-0 px-0">
+          <ul class="nav nav__ctn">
+            <li class="nav-item">
+              <button class="nav__btn__type3--active">HTML</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">CSS</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">JAVASCRIPT</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">SQL</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">PYTHON</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">JAVA</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">PHP</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">HOW TO</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">W3.CSS</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">C</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">C++</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">C#</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">BOOTSTRAP</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">REACT</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">MYSQL</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">JQUERY</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">EXCEL</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">XML</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3">DJANGO</button>
+            </li>
+          </ul>
+          <ul class="nav nav__controller">
+            <li class="nav-item">
+              <button class="nav__btn__type3"><span class="material-icons"> settings_brightness </span></button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3"><span class="material-icons"> public </span></button>
+            </li>
+            <li class="nav-item">
+              <button class="nav__btn__type3"><span class="material-icons"> search </span></button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="sidebar d-flex flex-column">
+      <h2 class="sidebar__category">HTML Tutorial</h2>
+      <a class="sidebar__btn sidebar__btn--active">HTML HOME</a>
+      <a class="sidebar__btn">HTML Introduction</a>
+      <a class="sidebar__btn">HTML Editors</a>
+      <a class="sidebar__btn">HTML Basic</a>
+      <a class="sidebar__btn">HTML Elements</a>
+      <a class="sidebar__btn">HTML Atributes</a>
+      <a class="sidebar__btn">HTML Headings</a>
+      <a class="sidebar__btn">HTML Paragraphs</a>
+      <a class="sidebar__btn">HTML Styles</a>
+      <a class="sidebar__btn">HTML Formatting</a>
+      <a class="sidebar__btn">HTML Quotations</a>
+      <a class="sidebar__btn">HTML Comments</a>
+      <a class="sidebar__btn">HTML Colors</a>
+      <a class="sidebar__btn">HTML CSS</a>
+      <a class="sidebar__btn">HTML Links</a>
+      <a class="sidebar__btn">HTML Images</a>
+      <a class="sidebar__btn">HTML Favicon</a>
+      <a class="sidebar__btn">HTML Page Title</a>
+      <a class="sidebar__btn">HTML Table</a>
+      <a class="sidebar__btn">HTML Lists</a>
+      <a class="sidebar__btn">HTML Block & Inline</a>
+      <a class="sidebar__btn">HTML Class</a>
+      <a class="sidebar__btn">HTML Id</a>
+      <a class="sidebar__btn">HTML Iframe</a>
+      <a class="sidebar__btn">HTML JavaScript</a>
+      <a class="sidebar__btn">HTML File Paths</a>
+      <a class="sidebar__btn">HTML Head</a>
+      <a class="sidebar__btn">HTML Layout</a>
+      <a class="sidebar__btn">HTML Responsive</a>
+      <a class="sidebar__btn">HTML Computercode</a>
+      <a class="sidebar__btn">HTML Semantics</a>
+      <a class="sidebar__btn">HTML Style Guide</a>
+      <a class="sidebar__btn">HTML Entities</a>
+      <a class="sidebar__btn">HTML Symbols</a>
+      <a class="sidebar__btn">HTML Emoji</a>
+      <a class="sidebar__btn">HTML Charset</a>
+      <a class="sidebar__btn">HTML URL Encode</a>
+      <a class="sidebar__btn">HTML vs XHTML</a>
+      <h2 class="sidebar__category">HTML Forms</h2>
+      <a class="sidebar__btn">HTML Forms</a>
+      <a class="sidebar__btn">HTML Form Atributes</a>
+      <a class="sidebar__btn">HTML Form Elements</a>
+      <a class="sidebar__btn">HTML Input Types</a>
+      <a class="sidebar__btn">HTML Input Attributes</a>
+      <a class="sidebar__btn">HTML Input Form Attributes</a>
+      <h2 class="sidebar__category">HTML Graphics</h2>
+      <a class="sidebar__btn">HTML Canvas</a>
+      <a class="sidebar__btn">HTML SVG</a>
+      <h2 class="sidebar__category">HTML Media</h2>
+      <a class="sidebar__btn">HTML Media</a>
+      <a class="sidebar__btn">HTML Video</a>
+      <a class="sidebar__btn">HTML Audio</a>
+      <a class="sidebar__btn">HTML Plug-ins</a>
+      <a class="sidebar__btn">HTML Youtube</a>
+      <h2 class="sidebar__category">HTML APIs</h2>
+      <a class="sidebar__btn">HTML Geolocation</a>
+      <a class="sidebar__btn">HTML Drag/Drop</a>
+      <a class="sidebar__btn">HTML Web Storage</a>
+      <a class="sidebar__btn">HTML Web Workers</a>
+      <a class="sidebar__btn">HTML SEE</a>
+      <h2 class="sidebar__category">HTML Examples</h2>
+      <a class="sidebar__btn">HTML Examples</a>
+      <a class="sidebar__btn">HTML Editor</a>
+      <a class="sidebar__btn">HTML Quiz</a>
+      <a class="sidebar__btn">HTML Exercises</a>
+      <a class="sidebar__btn">HTML Bootcamp</a>
+      <a class="sidebar__btn">HTML Certificate</a>
+      <a class="sidebar__btn">HTML Summary</a>
+      <a class="sidebar__btn">HTML Accessibility</a>
+      <h2 class="sidebar__category">HTML References</h2>
+      <a class="sidebar__btn">HTML Tag List</a>
+      <a class="sidebar__btn">HTML Attributes</a>
+      <a class="sidebar__btn">HTML Global Attributes</a>
+      <a class="sidebar__btn">HTML Browser Support</a>
+      <a class="sidebar__btn">HTML Events</a>
+      <a class="sidebar__btn">HTML Colors</a>
+      <a class="sidebar__btn">HTML Canvas</a>
+      <a class="sidebar__btn">HTML Audio/Video</a>
+      <a class="sidebar__btn">HTML Doctypes</a>
+      <a class="sidebar__btn">HTML Character Sets</a>
+      <a class="sidebar__btn">HTML URL Encode</a>
+      <a class="sidebar__btn">HTML Lang Codes</a>
+      <a class="sidebar__btn">HTML Messages</a>
+      <a class="sidebar__btn">HTML Methods</a>
+      <a class="sidebar__btn">PX to EM Converter</a>
+      <a class="sidebar__btn">Keyboard Shortcut</a>
+    </div>
+    <div class="main__container container-fluid px-0">
+      <main class="px-0 border-end">
+        <h1 class="px-3 py-3">HTML Tutorial</h1>
+        <div class="navigate__btn__container">
+          <button class="btn primary__btn btn__green">&#60; Home</button>
+          <button class="btn primary__btn btn__green">Next&#62;</button>
+        </div>
+        <section class="intro mt-4">
+          <p class="lh-lg">
+            HTML is the standard markup language for Web pages.
+            <br />
+            With HTML you can create your own Website.
+            <br />HTML is easy to learn - You will enjoy it!
+          </p>
+          <div class="d-flex flex-column">
+            <button class="btn primary__btn btn__green mb-4">Study our free HTML Tutorial »</button>
+            <button class="btn primary__btn btn__black">Watch our Video Tutorial »</button>
+          </div>
+        </section>
+        <hr />
+        <section class="learning">
+          <h2>Easy Learning with HTML "Try it Yourself"</h2>
+          <p class="py-4">With our "Try it Yourself" editor, you can edit the HTML code and view the result:</p>
+          <div class="code__example">
+            <h4>Example</h4>
+            <div class="code__field">
+              <div class="blue__text">
+                &lt;<span class="brown__text">!DOCTYPE <span class="red__text">html</span></span
+                >&gt;
+              </div>
+              <div class="blue__text">&lt;<span class="brown__text">html</span>&gt;</div>
+              <div class="blue__text">&lt;<span class="brown__text">head</span>&gt;</div>
+              <span class="blue__text">&lt;<span class="brown__text">title</span>&gt;</span>
+              <span>Page Title</span>
+              <span class="blue__text">&lt;<span class="brown__text">/title</span>&gt;</span>
+              <div class="blue__text">&lt;<span class="brown__text">/head</span>&gt;</div>
+              <div class="blue__text">&lt;<span class="brown__text">body</span>&gt;</div>
+              <br />
+              <span class="blue__text">&lt;<span class="brown__text">h1</span>&gt;</span>
+              <span>This is a Heading</span>
+              <span class="blue__text">&lt;<span class="brown__text">/h1</span>&gt;</span>
+              <br />
+              <span class="blue__text">&lt;<span class="brown__text">p</span>&gt;</span>
+              <span>This is a Paragraph.</span>
+              <span class="blue__text">&lt;<span class="brown__text">/p</span>&gt;</span>
+            </div>
+            <button class="btn primary__btn btn__green">Try it Yourself »</button>
+          </div>
+          <p class="fw-bold pt-3">Click on the "Try it Yourself" button to see how it works.</p>
+          <hr />
+        </section>
+
+        <section class="example">
+          <h2>HTML Examples</h2>
+          <p class="pt-3 lh-sm pb-4">
+            In this HTML tutorial, you will find more than 200 examples. With our online "Try it Yourself" editor, you
+            can edit and test each example yourself!
+          </p>
+          <button class="btn primary__btn btn__gray btn__hover__blue">Go to HTML Examples!</button>
+        </section>
+      </main>
+      <div class="">Advertise</div>
+
+      <footer>
+        <hr />
+        <div class="d-flex justify-content-end">
+          <a href="">FORUM</a> <span class="px-2">|</span> <a href="">ABOUT</a>
+        </div>
+        <p class="text-center">
+          <br />
+          W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
+          learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant
+          full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use,
+          cookie and privacy policy.
+          <br />
+          <br />
+          Copyright 1999-2023 by Refsnes Data. All Rights Reserved.
+          <br />
+          W3Schools is Powered by W3.CSS.
+        </p>
+        <img class="rounded mx-auto d-block py-4" src="./logo.png" alt="logo" width="45" />
+      </footer>
+    </div>
+  </body>
+</html>
